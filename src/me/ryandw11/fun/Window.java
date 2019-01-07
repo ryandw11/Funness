@@ -13,8 +13,8 @@ public class Window extends JFrame {
 	public int counter = 0;
 	JLabel label;
 	
-	public Window(String buttion1, String buttion2) {
-		super("Counter");
+	public Window(String buttion1, String buttion2, int i) {
+		super("Counter " + i);
 		
 		
 		this.setSize(100, 100);

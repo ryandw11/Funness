@@ -1,5 +1,7 @@
 package me.ryandw11.fun;
 
+import java.util.Random;
+
 import javax.swing.JFrame;
 
 public class Fun {
@@ -23,8 +25,9 @@ public class Fun {
 		}else {
 			
 		}
+		Random rdm = new Random();
 		
-		Window w = new Window(buttion1, buttion2);
+		Window w = new Window(buttion1, buttion2, rdm.nextInt(1000));
 		w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 	}
